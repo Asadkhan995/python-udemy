@@ -1,0 +1,15 @@
+        self.pharmacy_table["show"] = "headings"
+
+        self.pharmacy_table.heading("reg", text="Reference No")
+        self.pharmacy_table.heading("companyname", text="Company Name")
+        self.pharmacy_table.heading("type", text="Medicine Type")
+        self.pharmacy_table.heading("tablename", text="Tablet Name")
+        self.pharmacy_table.heading("lotno", text="Lot No")
+        self.pharmacy_table.heading("issuedate", text="Issue Date")
+        self.pharmacy_table.heading("ExpiryDate", text="Expiry Date")
+        self.pharmacy_table.heading("uses", text="Uses")
+        self.pharmacy_table.heading("Sideeffect", text="Side Effect")
+        self.pharmacy_table.heading("pres&warning", text="Prescription & Warning")
+        self.pharmacy_table.heading("tabletsprice", text="Tablet Price")
+        self.pharmacy_table.heading("productQT", text="Product Quantity")
+        self.pharmacy_table.heading("Dosage", text="Dosage")
